@@ -41,11 +41,11 @@ tbl decale(tbl t)
 {
 	int i;
 	t.taille++;
-	for i=t.taille-1;i>0;i--)
+	for (i=t.taille-1;i>0;i--)
 	{
 		t.tab[i]=t.tab[i-1];
 	}
-	t.tab[0]=;
+	t.tab[0]=0;
 	return t;
 }
 
