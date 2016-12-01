@@ -1,0 +1,4 @@
+wc -c fic.txt => nb de caractères
+wc -w fic.txt => nb de mots
+wc -l fic.txt => nb de lignes
+ls | wc -c => nb de fichiers dans le repertoire
